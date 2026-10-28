@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:oklch(0.09 0.03 265);--navy:oklch(0.16 0.05 265);--off:oklch(0.93 0.02 280);--ciano:oklch(0.82 0.15 210);--warn:oklch(0.83 0.16 85);--ok:oklch(0.78 0.17 155);--vio:oklch(0.62 0.2 300)}
+*{margin:0;box-sizing:border-box}
+body{width:1200px;height:630px;overflow:hidden;font-family:'Plus Jakarta Sans',sans-serif;color:var(--off);
+background:radial-gradient(60% 70% at 85% 30%,oklch(0.55 0.25 295/.28),transparent),radial-gradient(50% 60% at 0% 100%,oklch(0.82 0.15 210/.16),transparent),var(--ink);position:relative}
+.grade{position:absolute;inset:0;background-image:linear-gradient(oklch(1 0 0/.04) 1px,transparent 1px),linear-gradient(90deg,oklch(1 0 0/.04) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(to bottom,#000 40%,transparent)}
+.num{position:absolute;left:520px;top:-90px;font-size:420px;font-weight:800;letter-spacing:-.06em;line-height:1;background:linear-gradient(180deg,oklch(0.82 0.15 210/.13),transparent 75%);-webkit-background-clip:text;color:transparent}
+.esq{position:absolute;left:64px;top:44px;width:690px}
+.logo{display:block;width:270px;height:auto}
+.pill{display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:8px 16px;border:2px solid oklch(0.83 0.16 85/.5);background:oklch(0.83 0.16 85/.12);color:var(--warn);border-radius:999px;font-weight:800;font-size:18px;letter-spacing:.2em;text-transform:uppercase}
+h1{margin-top:18px;font-size:56px;line-height:1.02;font-weight:800;letter-spacing:-.03em}
+h1 b{color:var(--ciano)}
+p{margin-top:16px;font-size:24px;line-height:1.35;color:oklch(0.8 0.03 270);font-weight:500;max-width:none;white-space:nowrap}
+p strong{color:var(--off)}
+.robo{position:absolute;right:10px;top:70px;width:470px;-webkit-mask-image:radial-gradient(ellipse 52% 56% at 50% 42%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 52% 56% at 50% 42%,#000 58%,transparent 100%)}
+.balao{position:absolute;right:290px;top:96px;background:var(--off);color:var(--ink);font-weight:800;font-size:24px;padding:14px 22px;border-radius:22px;transform:rotate(-4deg);box-shadow:0 14px 30px -10px oklch(0 0 0/.6)}
+.balao:after{content:"";position:absolute;right:38px;bottom:-14px;border:14px solid transparent;border-top-color:var(--off);border-bottom:0}
+.esteira{position:absolute;left:64px;right:64px;bottom:40px;height:86px}
+.trilho{position:absolute;left:0;right:290px;bottom:0;height:18px;border-radius:999px;background:var(--navy);box-shadow:inset 0 0 0 1px oklch(1 0 0/.15);overflow:hidden}
+.trilho i{position:absolute;inset:0;width:62%;background:oklch(0.82 0.15 210/.75);box-shadow:0 0 18px var(--ciano)}
+.pecas{position:absolute;left:0;right:290px;bottom:28px;display:flex;justify-content:space-between}
+.pc{width:44px;height:44px;border-radius:11px;display:grid;place-items:center;position:relative}
+.ok{background:var(--navy);border:2px solid oklch(0.82 0.15 210/.6);box-shadow:0 0 14px oklch(0.82 0.15 210/.45)}
+.ok:after{content:"✓";position:absolute;right:-8px;top:-8px;width:20px;height:20px;border-radius:50%;background:var(--ok);color:var(--ink);font-size:13px;font-weight:800;display:grid;place-items:center}
+.no{border:2px dashed oklch(1 0 0/.25);opacity:.5}
+.pc svg{width:24px;height:24px;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.destino{position:absolute;right:0;bottom:-4px;width:270px;height:62px;border-radius:16px;border:2px dashed oklch(1 0 0/.25);display:flex;align-items:center;gap:12px;padding:0 16px;background:oklch(1 0 0/.03)}
+.destino small{display:block;font-size:12px;letter-spacing:.2em;font-weight:800;color:oklch(1 0 0/.45)}
+.destino span{display:block;white-space:nowrap;font-size:17px;font-weight:800;text-transform:uppercase;color:oklch(1 0 0/.75)}
+</style></head><body>
+<div class="grade"></div><div class="num">12</div>
+<div class="esq">
+  <img class="logo" src="maestro-wordmark.svg">
+  <div class="pill">⚙ Fábrica de soluções</div>
+  <h1>Descubra o valor de <b>cada peça</b> e o quanto custa a sua <b>produtividade</b>.</h1>
+  <p>Passe pelas <strong>12 estações</strong> da nossa fábrica em 4 minutos.</p>
+</div>
+<div class="balao">Bora ligar a fábrica? ⚡</div>
+<img class="robo" src="robo.png">
+<div class="esteira">
+  <div class="trilho"><i></i></div>
+  <div class="pecas" id="pecas"></div>
+  <div class="destino"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="oklch(0.83 0.16 85)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg><div><small>DESTINO</small><span>Solução otimizada</span></div></div>
+</div>
+<script>
+const I={mail:'<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>',img:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/>',bell:'<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>',chat:'<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'};
+const cores=['oklch(0.82 0.15 210)','oklch(0.8 0.13 300)','oklch(0.83 0.16 85)','oklch(0.78 0.17 155)'];const k=['mail','img','bell','chat'];
+const tort=[-18,12,-8,20,-14,6,-22,15,-5,18,-12,9];
+let h='';for(let i=0;i<12;i++){const ok=i<7;h+=`<div class="pc ${ok?'ok':'no'}" style="${ok?'':`transform:rotate(${tort[i]}deg)`}"><svg viewBox="0 0 24 24" stroke="${ok?cores[i%4]:'oklch(1 0 0/.5)'}">${I[k[i%4]]}</svg></div>`}
+document.getElementById('pecas').innerHTML=h;
+</script></body></html>

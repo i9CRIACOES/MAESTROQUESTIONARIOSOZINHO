@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+e2e/capturas/
+lh.json
+*.log
+.env*
+!.env.example
+*.tsbuildinfo
+graphify-out/
+.api-build/
+.maestro-sozinho/

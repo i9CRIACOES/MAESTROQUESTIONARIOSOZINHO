@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  body { width: 1200px; height: 630px; overflow: hidden; background: #05070f; font-family: "Plus Jakarta Sans", sans-serif; color: #eef0f7; position: relative; }
+  .brilho { position: absolute; inset: 0; background:
+    radial-gradient(520px 380px at 88% 18%, rgba(123, 70, 230, .35), transparent 70%),
+    radial-gradient(560px 420px at 8% 100%, rgba(0, 212, 255, .22), transparent 70%); }
+  svg.linhas { position: absolute; inset: 0; opacity: .5; }
+  .conteudo { position: absolute; left: 72px; top: 64px; width: 640px; }
+  .marca { display: flex; align-items: center; gap: 12px; }
+  .marca img { height: 56px; }
+  .marca span { font-size: 16px; color: #9aa3c4; }
+  .selo { display: inline-block; margin-top: 36px; padding: 8px 16px; border: 1px solid rgba(0,212,255,.4); border-radius: 999px; color: #00d4ff; font-weight: 700; font-size: 18px; letter-spacing: .14em; text-transform: uppercase; background: rgba(0,212,255,.08); }
+  h1 { margin-top: 26px; font-size: 62px; line-height: 1.04; font-weight: 800; letter-spacing: -.02em; }
+  h1 b { color: #00d4ff; }
+  p { margin-top: 22px; font-size: 24px; color: #b9c0dc; }
+  .robo { position: absolute; right: 30px; bottom: 0; height: 560px; mix-blend-mode: screen; -webkit-mask-image: radial-gradient(closest-side at 62% 50%, #000 60%, transparent 100%); mask-image: radial-gradient(closest-side at 62% 50%, #000 60%, transparent 100%); }
+</style>
+</head>
+<body>
+  <div class="brilho"></div>
+  <svg class="linhas" viewBox="0 0 1200 630" aria-hidden="true">
+    <g fill="none" stroke="#00d4ff" stroke-opacity=".35" stroke-dasharray="1 5">
+      <path d="M0 40 C 300 40, 480 315, 900 315" /><path d="M0 160 C 300 160, 480 315, 900 315" />
+      <path d="M0 470 C 300 470, 480 315, 900 315" /><path d="M0 590 C 300 590, 480 315, 900 315" />
+      <path d="M1200 60 C 1050 60, 980 315, 900 315" /><path d="M1200 570 C 1050 570, 980 315, 900 315" />
+    </g>
+  </svg>
+  <img class="robo" src="../../public/robo.png" alt="" />
+  <div class="conteudo">
+    <div class="marca"><img src="../../public/maestro-wordmark.svg" alt="Maestro" /><span>by always on</span></div>
+    <div class="selo">Você sabia?</div>
+    <h1>Você sabe quanto custa <b>cada peça</b> que o seu time produz?</h1>
+    <p>Diagnóstico de 4 minutos: quanto a fila de produção custa por mês.</p>
+  </div>
+</body>
+</html>

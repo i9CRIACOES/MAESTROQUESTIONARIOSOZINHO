@@ -1,0 +1,97 @@
+Custo da Fila
+maestro.com.ai
+by always on
+Diagnóstico de produção e governança
+11 perguntas · 4 minutos
+Quanto custa a peça que o seu time não consegue fazer?
+Toda operação de conteúdo tem uma fila, e ela não aparece em relatório nenhum. Aparece na campanha cortada, na variação por segmento que não deu tempo, no teste que fica para o mês que vem. Este diagnóstico põe preço nela — e mede uma segunda coisa que custa mais caro do que dinheiro: quantas mãos hoje podem publicar algo com o nome da sua marca.
+89%dizem que o criativo decide a performance
+3,6%dizem que otimizam o criativo de fato
+<10%dos ativos criativos são testados antes de ir ao ar
+EMARKETER com Perion (abr/2026) e EMARKETER com Toluna (mai/2026).
+Começar o diagnóstico
+Nada é enviado. O cálculo roda no seu navegador.
+Setor da empresa
+Selecione
+Varejo
+E-commerce / marketplace
+Moda e vestuário
+Serviços financeiros e seguros
+Saúde e bem-estar
+Educação
+Telecom
+Indústria e bens de consumo
+Energia e utilities
+Turismo e hospedagem
+Companhias aéreas
+Mobilidade e locação (carros, bikes, patinetes)
+Alimentos e bebidas
+Tecnologia e SaaS
+Agência de publicidade, marketing ou CRM
+Outro
+Faturamento anual
+Selecione
+Até R$ 100 milhões
+De R$ 100 a 500 milhões
+De R$ 500 milhões a R$ 1 bilhão
+De R$ 1 a 5 bilhões
+Mais de R$ 5 bilhões
+Voltar
+Continuar
+A leitura
+Farol 1 · O dinheiro
+Valor em jogo por mês na sua operação de conteúdo
+—
+Piso · já acontece hoje
+—
+Teto · com a sua ambição declarada
+—
+—
+Farol 2 · A marca
+Exposição da sua marca na produção de conteúdo
+—
+Travada por softwareGovernada por gente
+Os números por trás
+—custo real de uma peça hoje na sua operação
+—custo de uma hora de produção
+—horas por mês em montagem e versionamento
+Como esta conta é feita
+Nenhum número desta página é estimativa nossa. Todos saem das suas respostas — por isso dá para discutir cada um deles.
+Custo de uma peçacusto mensal da estrutura ÷ peças publicadas por mês
+Custo de uma hora de produçãocusto mensal ÷ (peças × horas de gente por peça)
+Piso — o que já acontece hojecusto mensal × a fatia que você disse ser montagem e versionamento. É trabalho que existe quer a operação cresça ou não.
+Teto — com a sua ambição declaradapiso + (peças que faltam × custo de uma peça). É o que custaria produzir, com a estrutura de hoje, as peças que você disse que faria se não houvesse fila.
+Equivalente em pessoasteto ÷ o que custa um recurso alocado na sua empresa
+O que deliberadamente não entraNenhuma estimativa de quanto o Composer economiza, de quanto a receita sobe ou de ganho de produtividade. Esses números dependeriam de premissas nossas, e premissa não é medida. O que esta página compara é o que já está em jogo na sua operação contra o preço de entrada do Composer.
+O tempo
+Esse tempo não desaparece do mundo: ele volta como capacidade. O time entrega o que hoje não cabe no mês, ou a estrutura entrega o mesmo com menos gente. As duas leituras valem — mas são decisões diferentes, e é melhor escolher qual antes de assinar qualquer coisa.
+A fila
+72,1% dos times só mexem no criativo depois que a performance cai, e 56,8% relatam que a desconexão entre mídia e criativo gera atraso ou erro pelo menos uma vez por mês. Fila longa não é detalhe operacional: é o que transforma otimização em autópsia.
+O ponto de equilíbrio
+Ajuste os números
+As faixas servem para começar. Aqui você põe os seus números exatos — inclusive o que vale um recurso alocado na sua empresa — e vê os faróis mudarem.
+Peças por mês
+Custo mensal da estrutura (R$)
+Horas de gente por peça
+Montagem e versionamento (% do tempo)
+Dias úteis de fila
+Quantas peças você faria (× hoje)
+Custo de 1 recurso alocado (R$/mês)
+Mensalidade do Maestro Composer (R$)
+O que sustenta a leitura
+78%dos profissionais de marketing no mundo dizem precisar de mais conteúdo personalizado do que conseguem produzir. Capacidade de produção é hoje o primeiro obstáculo da personalização, à frente de dados e de tecnologia.Salesforce, State of Marketing 2026 · 4.450 respondentes · campo de 8/out a 17/nov de 2025
+3,6%dizem que o criativo é ativamente otimizado, contra 89% que o apontam como crítico para a performance. A distância entre os dois números é a fila.EMARKETER com Perion · abril de 2026 · agências e marcas com mais de US$ 5 mi em mídia anual
+72,1%esperam a performance cair para mexer no criativo. Não por escolha: porque trocar o criativo custa uma nova passagem pela fila.EMARKETER com Perion · abril de 2026
+<10%dos ativos criativos são testados antes de ir ao ar. Criativo validado antes do lançamento está associado a +46% de receita e +9% de economia de mídia.EMARKETER com Toluna, The growing value of creative intelligence · maio de 2026
+Os números acima são de mercado. Todos os valores em reais nesta página saem exclusivamente das suas respostas: nenhuma estimativa de ganho, de economia ou de receita foi embutida no cálculo.
+Quer a leitura completa, com o seu time na sala?
+Uma sessão de 45 minutos sobre os seus números: onde a fila se forma, quais peças ela come primeiro, quantas mãos hoje tocam a sua marca e o que mudaria de fato na sua régua. Sem apresentação de produto.
+Nome
+Empresa
+E-mail corporativo
+Cargo
+Quero a sessão
+Ao pedir a sessão, as suas respostas e o seu resultado vão junto — é o que permite começar a conversa já com os seus números na mesa. Se você não pedir, nada sai do seu navegador.
+Recebido. Respondemos em até um dia útil.
+Refazer o diagnóstico
+maestro.com.ai · by always on — O cálculo roda no seu navegador. Ao pedir a sessão, enviamos seus dados de contato e o resumo do diagnóstico ao time comercial.

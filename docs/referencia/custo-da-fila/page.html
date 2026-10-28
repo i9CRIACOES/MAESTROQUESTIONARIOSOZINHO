@@ -1,0 +1,813 @@
+<!DOCTYPE html><html lang="pt-BR"><head><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5R67SSHF&amp;gtg_health=1"></script><script async="" src="/a0s2/"></script><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)})
+(window,'GTM-5R67SSHF','google_tags_first_party');</script><script>(function(w,d,s,l){w[l]=w[l]||[];(function(){w[l].push(arguments);})('set', 'developer_id.dYzg1YT', true);
+		w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s);j.async=true;j.src='/a0s2/';
+		f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer');</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F172A">
+<link rel="canonical" href="https://www.maestro.com.ai/custo-da-fila">
+<meta name="description" content="Quanto custa a peca que o seu time nao consegue fazer. Diagnostico de producao e governanca de marca. Maestro by Always On.">
+<meta property="og:title" content="Custo da Fila | Maestro">
+<meta property="og:description" content="11 perguntas, 4 minutos. Quanto custa a peca que o seu time nao consegue fazer - e quantas maos hoje podem publicar em nome da sua marca.">
+<meta property="og:url" content="https://www.maestro.com.ai/custo-da-fila">
+<meta name="robots" content="noindex">
+<title>Custo da Fila</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap">
+<style>
+/* Layout: coluna de 780px sobre navy. Uma pergunta por tela em dois blocos (operação, marca);
+   resultado em dois faróis — financeiro e exposição de marca — que se cruzam num veredito único. */
+:root{
+  --navy:#0F172A; --slate:#1E293B; --slate2:#172133; --line:#334155; --line2:#223049;
+  --fg:#FFFFFF; --dim:#94A3B8; --dim2:#64748B;
+  --teal:#12D3D2; --cyan:#67E8F9; --purple:#8B5CF6; --violet:#A78BFA; --plum:#9032A8;
+  --grad:linear-gradient(135deg,#12D3D2 0%,#705FA6 62%,#9032A8 100%);
+  --ok:#10B981; --warn:#F59E0B; --err:#EF4444;
+  --okbg:rgba(16,185,129,.13); --warnbg:rgba(245,158,11,.13); --errbg:rgba(239,68,68,.13);
+  --sans:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:6px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{
+  margin:0;background:var(--navy);color:var(--fg);font-family:var(--sans);
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px));
+}
+.wrap{max-width:800px;margin:0 auto}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:22px 12px;flex-wrap:wrap}
+.lockup{display:flex;align-items:center;gap:10px;min-width:0}
+.clef{display:flex;align-items:flex-end;gap:3px;height:20px}
+.clef i{width:4px;border-radius:2px;display:block}
+.clef i:nth-child(1){height:7px;background:#475569}
+.clef i:nth-child(2){height:13px;background:var(--teal)}
+.clef i:nth-child(3){height:20px;background:var(--grad)}
+.lockup .wm{font-weight:700;letter-spacing:-.02em;font-size:17px}
+.lockup .wm span{font-weight:400;color:var(--dim)}
+.lockup .by{border-left:1px solid var(--line);padding-left:10px;font-size:10.5px;color:var(--dim2);
+  letter-spacing:.09em;text-transform:lowercase}
+.tag{font-size:12px;color:var(--dim2);font-variant-numeric:tabular-nums}
+
+h1{font-size:clamp(29px,5.6vw,48px);line-height:1.1;letter-spacing:-.035em;font-weight:700;margin:20px 0 0;text-wrap:balance}
+h1 .g{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{color:var(--dim);font-size:17px;max-width:62ch;margin:16px 0 0}
+section{padding-block:6px 34px}
+.badge{display:inline-flex;align-items:center;gap:8px;background:var(--slate);border:1px solid var(--line);
+  border-radius:999px;padding:6px 14px;font-size:11.5px;font-weight:600;color:var(--cyan);
+  letter-spacing:.07em;text-transform:uppercase}
+.btn{appearance:none;border:0;cursor:pointer;font-family:inherit;font-size:15px;font-weight:600;
+  color:#06121F;background:var(--grad);border-radius:var(--r);padding:13px 26px;letter-spacing:.01em;
+  box-shadow:0 0 0 1px rgba(18,211,210,.3),0 6px 26px -10px rgba(144,50,168,.9);transition:box-shadow .15s ease}
+.btn:hover{box-shadow:0 0 0 1px rgba(103,232,249,.55),0 8px 30px -8px rgba(144,50,168,1)}
+.btn:disabled{opacity:.3;cursor:not-allowed;box-shadow:none}
+.btn.ghost{background:none;color:var(--dim);border:1px solid var(--line);box-shadow:none}
+.btn.ghost:hover{color:var(--fg);border-color:var(--teal);box-shadow:none}
+.btn:focus-visible,.opt:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px;margin-top:26px}
+.stat{background:var(--slate);border:1px solid var(--line2);border-radius:var(--r);padding:14px 16px;min-width:0}
+.stat b{display:block;font-size:24px;letter-spacing:-.03em;background:var(--grad);
+  -webkit-background-clip:text;background-clip:text;color:transparent;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--dim);line-height:1.4;display:block;margin-top:3px}
+.card{background:var(--slate);border:1px solid var(--line2);border-radius:var(--r);padding:clamp(20px,4vw,30px)}
+.eyebrow{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin:0 0 10px}
+.q{font-size:clamp(20px,3.4vw,26px);line-height:1.25;letter-spacing:-.025em;font-weight:600;margin:0;text-wrap:balance}
+.help{color:var(--dim);font-size:14px;margin:12px 0 0;max-width:60ch}
+.opts{display:grid;gap:9px;margin-top:22px}
+.opt{appearance:none;font-family:inherit;font-size:15px;text-align:left;cursor:pointer;
+  background:var(--slate2);border:1px solid var(--line2);border-radius:var(--r);padding:14px 16px;color:var(--fg);
+  display:flex;align-items:center;gap:12px;transition:border-color .12s ease,background .12s ease}
+.opt:hover{border-color:var(--teal);background:#19253B}
+.opt[aria-pressed="true"]{border-color:var(--teal);background:#132B3C;font-weight:600;
+  box-shadow:0 0 0 1px rgba(18,211,210,.35),0 0 20px -6px rgba(18,211,210,.5)}
+.opt i{width:8px;height:8px;border-radius:50%;background:var(--line);flex:none}
+.opt[aria-pressed="true"] i{background:var(--grad)}
+.prog{height:3px;background:var(--line2);border-radius:999px;overflow:hidden;margin-bottom:20px}
+.prog>div{height:100%;background:var(--grad);width:0;transition:width .3s ease}
+.navrow{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:22px;flex-wrap:wrap}
+.step-n{font-size:12px;color:var(--dim2);font-variant-numeric:tabular-nums}
+.fields{display:grid;gap:16px;margin-top:20px}
+label{display:block;font-size:12.5px;font-weight:500;margin-bottom:6px;color:var(--dim)}
+select,input[type=number],input[type=text],input[type=email]{
+  width:100%;font-family:inherit;font-size:15px;color:var(--fg);background:var(--slate2);
+  border:1px solid var(--line);border-radius:var(--r);padding:12px 13px}
+
+/* ===== farol ===== */
+.farol{background:var(--slate);border:1px solid var(--line2);border-radius:var(--r);padding:clamp(20px,4vw,32px);position:relative;overflow:hidden}
+.farol::before{content:"";position:absolute;inset:0 0 auto;height:3px;background:var(--grad)}
+.bignum{display:block;font-size:clamp(46px,11vw,86px);line-height:.98;letter-spacing:-.045em;font-weight:700;
+  font-variant-numeric:tabular-nums;margin:4px 0 2px}
+.bignum.c-ok{color:var(--ok)} .bignum.c-warn{color:var(--warn)} .bignum.c-err{color:var(--err)}
+.lamp{display:inline-flex;align-items:center;gap:9px;border-radius:999px;padding:7px 15px;
+  font-size:12.5px;font-weight:600;letter-spacing:.02em}
+.lamp i{width:9px;height:9px;border-radius:50%;flex:none}
+.l-ok{background:var(--okbg);color:var(--ok)} .l-ok i{background:var(--ok);box-shadow:0 0 10px var(--ok)}
+.l-warn{background:var(--warnbg);color:var(--warn)} .l-warn i{background:var(--warn);box-shadow:0 0 10px var(--warn)}
+.l-err{background:var(--errbg);color:var(--err)} .l-err i{background:var(--err);box-shadow:0 0 10px var(--err)}
+.layers{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:20px}
+.layer{background:var(--slate2);border:1px solid var(--line2);border-radius:var(--r);padding:16px;min-width:0}
+.layer .k{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim2);font-weight:600}
+.layer b{display:block;font-size:26px;letter-spacing:-.03em;margin:6px 0 4px;font-variant-numeric:tabular-nums}
+.layer p{margin:0;font-size:12.5px;color:var(--dim);line-height:1.45}
+.price{margin-top:16px;display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;
+  background:var(--slate2);border:1px solid rgba(18,211,210,.45);border-radius:var(--r);padding:16px 18px}
+.price b{font-size:clamp(26px,5vw,34px);letter-spacing:-.04em;font-variant-numeric:tabular-nums;line-height:1;
+  background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.price span{font-size:14px;color:var(--dim);flex:1;min-width:190px;line-height:1.5}
+.price span strong{color:var(--fg);font-weight:600}
+details.calc{margin-top:12px;background:var(--slate);border:1px solid var(--line2);border-radius:var(--r)}
+details.calc summary{cursor:pointer;padding:18px 22px;font-size:14.5px;font-weight:600;list-style:none;
+  display:flex;align-items:center;justify-content:space-between;gap:14px}
+details.calc summary::-webkit-details-marker{display:none}
+details.calc summary::after{content:"+";color:var(--teal);font-size:22px;line-height:1;flex:none}
+details.calc[open] summary::after{content:"\2013"}
+details.calc .cbody{padding:0 22px 20px;font-size:14px;color:var(--dim);line-height:1.55}
+details.calc .crow{border-top:1px solid var(--line2);padding-top:14px;margin-top:14px}
+details.calc .crow b{display:block;color:var(--fg);font-size:13.5px;margin-bottom:5px}
+details.calc code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;color:var(--cyan);
+  background:var(--slate2);border:1px solid var(--line2);padding:7px 10px;border-radius:4px;
+  display:block;margin-top:7px;overflow-x:auto;white-space:nowrap}
+.scale{display:flex;gap:4px;margin-top:18px;font-size:11px}
+.scale div{flex:1;padding:8px 10px;border-radius:var(--r);background:var(--slate2);color:var(--dim2);
+  border:1px solid transparent;line-height:1.35;min-width:0}
+.scale div.on{color:var(--fg);font-weight:600}
+.scale div.on.s-err{border-color:var(--err);background:var(--errbg)}
+.scale div.on.s-warn{border-color:var(--warn);background:var(--warnbg)}
+.scale div.on.s-ok{border-color:var(--ok);background:var(--okbg)}
+.scale b{display:block;font-variant-numeric:tabular-nums;font-size:12.5px;color:inherit}
+
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:10px;margin-top:12px}
+.tile{background:var(--slate);border:1px solid var(--line2);border-radius:var(--r);padding:18px;min-width:0}
+.tile b{display:block;font-size:clamp(23px,4.2vw,30px);letter-spacing:-.035em;line-height:1.1;font-variant-numeric:tabular-nums}
+.tile .lab{font-size:12.5px;color:var(--dim);margin-top:7px;line-height:1.45}
+.block{margin-top:12px;background:var(--slate);border:1px solid var(--line2);border-radius:var(--r);padding:22px}
+.block h3{font-size:14.5px;margin:0 0 9px;letter-spacing:-.01em}
+.block p{margin:0;color:var(--dim);font-size:14.5px}
+.block p+p{margin-top:9px}
+.block strong{color:var(--fg);font-weight:600}
+.rail{border-left:2px solid var(--teal)}
+.verdict{margin-top:12px;border-radius:var(--r);padding:clamp(20px,4vw,28px);border:1px solid}
+.verdict.vd-ok{border-color:rgba(16,185,129,.45);background:linear-gradient(180deg,rgba(16,185,129,.1),transparent)}
+.verdict.vd-warn{border-color:rgba(245,158,11,.45);background:linear-gradient(180deg,rgba(245,158,11,.1),transparent)}
+.verdict.vd-err{border-color:rgba(239,68,68,.45);background:linear-gradient(180deg,rgba(239,68,68,.1),transparent)}
+.verdict h3{margin:10px 0 10px;font-size:clamp(19px,3.3vw,25px);letter-spacing:-.025em;line-height:1.2;text-wrap:balance}
+.verdict p{margin:0;color:var(--dim);font-size:15px;max-width:62ch}
+.meter{height:7px;background:var(--slate2);border-radius:999px;overflow:hidden;margin:14px 0 10px;border:1px solid var(--line2)}
+.meter>div{height:100%;background:linear-gradient(90deg,var(--teal),var(--purple),var(--plum));transition:width .35s ease}
+.mlabels{display:flex;justify-content:space-between;font-size:11px;color:var(--dim2)}
+.flag{background:var(--warnbg);border:1px solid rgba(245,158,11,.4);border-radius:var(--r);
+  padding:16px 18px;margin-top:12px;font-size:14px;color:#FCD9A0}
+.spot{margin-top:12px;border:1px solid rgba(103,232,249,.4);border-radius:var(--r);padding:22px;
+  background:linear-gradient(180deg,rgba(18,211,210,.1),transparent)}
+.spot h3{margin:0 0 10px;font-size:16px;letter-spacing:-.015em;color:var(--cyan)}
+.spot p{margin:0;font-size:14.5px;color:#CBD5E1}
+.spot p+p{margin-top:9px}
+.tune{margin-top:12px;background:var(--slate);border:1px solid var(--line2);border-radius:var(--r);padding:22px}
+.tune .fields{grid-template-columns:repeat(auto-fit,minmax(165px,1fr))}
+.src{margin-top:28px;border-top:1px solid var(--line2);padding-top:22px}
+.src h3{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin:0 0 14px;font-weight:600}
+.src ul{list-style:none;margin:0;padding:0;display:grid;gap:13px}
+.src li{display:grid;grid-template-columns:74px 1fr;gap:14px;align-items:start;font-size:13.5px;color:var(--dim);line-height:1.5}
+.src li b{font-size:19px;color:var(--fg);letter-spacing:-.025em;font-variant-numeric:tabular-nums;line-height:1.2}
+.src cite{display:block;font-style:normal;font-size:11.5px;color:var(--dim2);margin-top:3px}
+.cta{margin-top:12px;border-radius:var(--r);padding:clamp(22px,4vw,32px);
+  background:linear-gradient(135deg,rgba(18,211,210,.16),rgba(144,50,168,.2));border:1px solid var(--line)}
+.cta h3{margin:0 0 8px;font-size:clamp(19px,3.2vw,25px);letter-spacing:-.025em;line-height:1.2;text-wrap:balance}
+.cta p{margin:0;color:#CBD5E1;font-size:14.5px;max-width:54ch}
+.lead-err{margin:12px 0 0;font-size:14px;font-weight:600;color:#F59E0B;max-width:54ch}
+footer{padding-block:24px 40px;font-size:11.5px;color:var(--dim2);border-top:1px solid var(--line2);margin-top:32px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <span class="lockup">
+      <span class="clef" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="wm">maestro<span>.com.ai</span></span>
+      <span class="by">by always on</span>
+    </span>
+    <span class="tag" id="tag">Diagnóstico de produção e governança</span>
+  </header>
+
+  <section id="hero">
+    <span class="badge">11 perguntas · 4 minutos</span>
+    <h1>Quanto custa a peça que o seu time <span class="g">não consegue fazer</span>?</h1>
+    <p class="lede">Toda operação de conteúdo tem uma fila, e ela não aparece em relatório nenhum. Aparece na campanha cortada, na variação por segmento que não deu tempo, no teste que fica para o mês que vem. Este diagnóstico põe preço nela — e mede uma segunda coisa que custa mais caro do que dinheiro: quantas mãos hoje podem publicar algo com o nome da sua marca.</p>
+    <div class="stats">
+      <div class="stat"><b>89%</b><span>dizem que o criativo decide a performance</span></div>
+      <div class="stat"><b>3,6%</b><span>dizem que otimizam o criativo de fato</span></div>
+      <div class="stat"><b>&lt;10%</b><span>dos ativos criativos são testados antes de ir ao ar</span></div>
+    </div>
+    <p class="help" style="margin-top:14px">EMARKETER com Perion (abr/2026) e EMARKETER com Toluna (mai/2026).</p>
+    <div class="navrow"><button class="btn" id="start">Começar o diagnóstico</button><span class="step-n">Nada é enviado. O cálculo roda no seu navegador.</span></div>
+  </section>
+
+  <section id="quiz" hidden="">
+    <div class="prog"><div id="bar"></div></div>
+    <div class="card">
+      <p class="eyebrow" id="eyebrow"></p>
+      <h2 class="q" id="qtext"></h2>
+      <p class="help" id="qhelp"></p>
+      <div class="opts" id="opts"></div>
+      <div class="fields" id="profile" hidden="">
+        <div>
+          <label for="setor">Setor da empresa</label>
+          <select id="setor">
+            <option value="">Selecione</option>
+            <option>Varejo</option><option>E-commerce / marketplace</option><option>Moda e vestuário</option>
+            <option>Serviços financeiros e seguros</option><option>Saúde e bem-estar</option><option>Educação</option>
+            <option>Telecom</option><option>Indústria e bens de consumo</option><option>Energia e utilities</option>
+            <option>Turismo e hospedagem</option><option>Companhias aéreas</option>
+            <option>Mobilidade e locação (carros, bikes, patinetes)</option>
+            <option>Alimentos e bebidas</option><option>Tecnologia e SaaS</option>
+            <option>Agência de publicidade, marketing ou CRM</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div>
+          <label for="fat">Faturamento anual</label>
+          <select id="fat">
+            <option value="">Selecione</option>
+            <option>Até R$ 100 milhões</option><option>De R$ 100 a 500 milhões</option>
+            <option>De R$ 500 milhões a R$ 1 bilhão</option><option>De R$ 1 a 5 bilhões</option>
+            <option>Mais de R$ 5 bilhões</option>
+          </select>
+        </div>
+      </div>
+      <div class="navrow">
+        <button class="btn ghost" id="back">Voltar</button>
+        <span class="step-n" id="counter"></span>
+        <button class="btn" id="next" disabled="">Continuar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="result" hidden="">
+
+    <p class="eyebrow">A leitura</p>
+    <div class="verdict" id="r-verdict">
+      <span class="lamp" id="r-vlamp"><i></i><span id="r-vlamp-t"></span></span>
+      <h3 id="r-vtitle"></h3>
+      <p id="r-vbody"></p>
+    </div>
+
+    <p class="eyebrow" style="margin-top:28px">Farol 1 · O dinheiro</p>
+    <div class="farol">
+      <p class="help" style="margin:0 0 2px;font-size:13px">Valor em jogo por mês na sua operação de conteúdo</p>
+      <span class="bignum" id="r-valor">—</span>
+      <span class="lamp" id="r-lamp"><i></i><span id="r-lamp-t"></span></span>
+      <p class="help" id="r-valor-exp" style="font-size:15px;max-width:64ch"></p>
+
+      <div class="layers">
+        <div class="layer">
+          <span class="k">Piso · já acontece hoje</span>
+          <b id="r-piso">—</b>
+          <p id="r-piso-exp"></p>
+        </div>
+        <div class="layer">
+          <span class="k">Teto · com a sua ambição declarada</span>
+          <b id="r-teto">—</b>
+          <p id="r-teto-exp"></p>
+        </div>
+      </div>
+
+      <div class="price">
+        <b id="r-ratio">—</b>
+        <span id="r-ratio-exp"></span>
+      </div>
+      <p class="help" id="r-recurso" style="font-size:13px"></p>
+    </div>
+
+    <p class="eyebrow" style="margin-top:28px">Farol 2 · A marca</p>
+    <div class="farol">
+      <p class="help" style="margin:0 0 2px;font-size:13px">Exposição da sua marca na produção de conteúdo</p>
+      <span class="bignum" id="r-marca">—</span>
+      <span class="lamp" id="r-mlamp"><i></i><span id="r-mlamp-t"></span></span>
+      <div class="meter"><div id="r-meter" style="width:0"></div></div>
+      <div class="mlabels"><span>Travada por software</span><span>Governada por gente</span></div>
+      <p class="help" id="r-marca-exp" style="font-size:15px;max-width:64ch"></p>
+    </div>
+
+    <div class="spot" id="r-spot" hidden="">
+      <h3 id="r-spot-h"></h3>
+      <div id="r-spot-b"></div>
+    </div>
+
+    <p class="eyebrow" style="margin-top:28px">Os números por trás</p>
+    <div class="grid3">
+      <div class="tile"><b id="r-peca">—</b><div class="lab">custo real de uma peça hoje na sua operação</div></div>
+      <div class="tile"><b id="r-hora">—</b><div class="lab">custo de uma hora de produção</div></div>
+      <div class="tile"><b id="r-mont">—</b><div class="lab" id="r-mont-lab">horas por mês em montagem e versionamento</div></div>
+    </div>
+
+    <details class="calc">
+      <summary>Como esta conta é feita</summary>
+      <div class="cbody">
+        <p>Nenhum número desta página é estimativa nossa. Todos saem das suas respostas — por isso dá para discutir cada um deles.</p>
+        <div class="crow"><b>Custo de uma peça</b>custo mensal da estrutura ÷ peças publicadas por mês<code id="c-peca"></code></div>
+        <div class="crow"><b>Custo de uma hora de produção</b>custo mensal ÷ (peças × horas de gente por peça)<code id="c-hora"></code></div>
+        <div class="crow"><b>Piso — o que já acontece hoje</b>custo mensal × a fatia que você disse ser montagem e versionamento. É trabalho que existe quer a operação cresça ou não.<code id="c-piso"></code></div>
+        <div class="crow"><b>Teto — com a sua ambição declarada</b>piso + (peças que faltam × custo de uma peça). É o que custaria produzir, com a estrutura de hoje, as peças que você disse que faria se não houvesse fila.<code id="c-teto"></code></div>
+        <div class="crow"><b>Equivalente em pessoas</b>teto ÷ o que custa um recurso alocado na sua empresa<code id="c-rec"></code></div>
+        <div class="crow"><b>O que deliberadamente não entra</b>Nenhuma estimativa de quanto o Composer economiza, de quanto a receita sobe ou de ganho de produtividade. Esses números dependeriam de premissas nossas, e premissa não é medida. O que esta página compara é o que já está em jogo na sua operação contra o preço de entrada do Composer.</div>
+      </div>
+    </details>
+
+    <div class="flag" id="r-flag" hidden=""></div>
+
+    <div class="block rail">
+      <h3>O tempo</h3>
+      <p id="r-tempo-txt"></p>
+      <p>Esse tempo não desaparece do mundo: ele volta como capacidade. O time entrega o que hoje não cabe no mês, ou a estrutura entrega o mesmo com menos gente. As duas leituras valem — mas são decisões diferentes, e é melhor escolher qual antes de assinar qualquer coisa.</p>
+    </div>
+
+    <div class="block rail">
+      <h3>A fila</h3>
+      <p id="r-fila-txt"></p>
+      <p>72,1% dos times só mexem no criativo depois que a performance cai, e 56,8% relatam que a desconexão entre mídia e criativo gera atraso ou erro pelo menos uma vez por mês. Fila longa não é detalhe operacional: é o que transforma otimização em autópsia.</p>
+    </div>
+
+    <div class="block rail">
+      <h3>O ponto de equilíbrio</h3>
+      <p id="r-eq-txt"></p>
+    </div>
+
+    <div class="tune">
+      <p class="eyebrow" style="margin:0 0 4px">Ajuste os números</p>
+      <h3 style="margin:0;font-size:14.5px;letter-spacing:-.01em;font-weight:600">As faixas servem para começar. Aqui você põe os seus números exatos — inclusive o que vale um recurso alocado na sua empresa — e vê os faróis mudarem.</h3>
+      <div class="fields">
+        <div><label for="t-pecas">Peças por mês</label><input type="number" id="t-pecas" min="1" step="1"></div>
+        <div><label for="t-custo">Custo mensal da estrutura (R$)</label><input type="number" id="t-custo" min="1000" step="1000"></div>
+        <div><label for="t-horas">Horas de gente por peça</label><input type="number" id="t-horas" min="0.25" step="0.25"></div>
+        <div><label for="t-mont">Montagem e versionamento (% do tempo)</label><input type="number" id="t-mont" min="0" max="100" step="5"></div>
+        <div><label for="t-dias">Dias úteis de fila</label><input type="number" id="t-dias" min="0.5" step="0.5"></div>
+        <div><label for="t-mult">Quantas peças você faria (× hoje)</label><input type="number" id="t-mult" min="1" max="20" step="0.5"></div>
+        <div><label for="t-rec">Custo de 1 recurso alocado (R$/mês)</label><input type="number" id="t-rec" min="1000" step="1000"></div>
+        <div><label for="t-preco">Mensalidade do Maestro Composer (R$)</label><input type="number" id="t-preco" min="0" step="500"></div>
+      </div>
+    </div>
+
+    <div class="src">
+      <h3>O que sustenta a leitura</h3>
+      <ul>
+        <li><b>78%</b><span>dos profissionais de marketing no mundo dizem precisar de mais conteúdo personalizado do que conseguem produzir. Capacidade de produção é hoje o primeiro obstáculo da personalização, à frente de dados e de tecnologia.<cite>Salesforce, State of Marketing 2026 · 4.450 respondentes · campo de 8/out a 17/nov de 2025</cite></span></li>
+        <li><b>3,6%</b><span>dizem que o criativo é ativamente otimizado, contra 89% que o apontam como crítico para a performance. A distância entre os dois números é a fila.<cite>EMARKETER com Perion · abril de 2026 · agências e marcas com mais de US$ 5 mi em mídia anual</cite></span></li>
+        <li><b>72,1%</b><span>esperam a performance cair para mexer no criativo. Não por escolha: porque trocar o criativo custa uma nova passagem pela fila.<cite>EMARKETER com Perion · abril de 2026</cite></span></li>
+        <li><b>&lt;10%</b><span>dos ativos criativos são testados antes de ir ao ar. Criativo validado antes do lançamento está associado a +46% de receita e +9% de economia de mídia.<cite>EMARKETER com Toluna, The growing value of creative intelligence · maio de 2026</cite></span></li>
+      </ul>
+      <p class="help">Os números acima são de mercado. Todos os valores em reais nesta página saem exclusivamente das suas respostas: nenhuma estimativa de ganho, de economia ou de receita foi embutida no cálculo.</p>
+    </div>
+
+    <div class="cta">
+      <h3>Quer a leitura completa, com o seu time na sala?</h3>
+      <p>Uma sessão de 45 minutos sobre os seus números: onde a fila se forma, quais peças ela come primeiro, quantas mãos hoje tocam a sua marca e o que mudaria de fato na sua régua. Sem apresentação de produto.</p>
+      <div class="fields" id="lead" style="max-width:430px">
+        <div><label for="l-nome">Nome</label><input type="text" id="l-nome" placeholder="Como podemos te chamar" autocomplete="name"></div>
+        <div><label for="l-empresa">Empresa</label><input type="text" id="l-empresa" placeholder="Nome da organização" autocomplete="organization"></div>
+        <div><label for="l-email">E-mail corporativo</label><input type="email" id="l-email" placeholder="voce@empresa.com.br" autocomplete="email"></div>
+        <div><label for="l-cargo">Cargo</label><input type="text" id="l-cargo" placeholder="Seu papel na organização" autocomplete="organization-title"></div>
+      </div>
+      <div class="navrow"><button class="btn" id="send" type="button">Quero a sessão</button></div>
+      <p class="help" style="margin-top:12px;font-size:12.5px">Ao pedir a sessão, as suas respostas e o seu resultado vão junto — é o que permite começar a conversa já com os seus números na mesa. Se você não pedir, nada sai do seu navegador.</p>
+      <p id="lead-err" class="lead-err" hidden="" role="alert"></p>
+      <p id="sent" hidden="" style="margin-top:14px;font-weight:600;color:var(--cyan)">Recebido. Respondemos em até um dia útil.</p>
+    </div>
+
+    <div class="navrow"><button class="btn ghost" id="again">Refazer o diagnóstico</button></div>
+  </section>
+
+  <footer>maestro.com.ai · by always on — O cálculo roda no seu navegador. Ao pedir a sessão, enviamos seus dados de contato e o resumo do diagnóstico ao time comercial.</footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var PRECO = 6000, RECURSO = 25000;
+
+  /* Tag de origem por onda: use /custo-da-fila?o=cmp-nc, ?o=ent-c, ?o=miar-nc etc. */
+  var ORIGEM = (function(){
+    try { return (new URLSearchParams(location.search).get('o') || '').slice(0, 40); }
+    catch(e){ return ''; }
+  })();
+
+  var STEPS = [
+    {id:'quem', g:'A operação', eyebrow:'01 · Estrutura',
+     q:'Quem produz as peças de comunicação da sua empresa hoje?',
+     help:'Peça é cada e-mail, push, SMS, WhatsApp ou post que vai ao ar. Três versões do mesmo e-mail para três segmentos contam como três peças.',
+     opts:[[1,'Time interno'],[2,'Agência'],[3,'Time interno e agência juntos']]},
+    {id:'pecas', g:'A operação', eyebrow:'02 · Volume',
+     q:'Quantas peças a sua empresa publica por mês?',
+     help:'Conte cada variação separadamente. Na maioria das operações esse número é bem maior do que o time imagina.',
+     opts:[[12,'Até 20 peças'],[35,'De 21 a 50'],[95,'De 51 a 150'],[260,'De 151 a 400'],[600,'Mais de 400']]},
+    {id:'custo', g:'A operação', eyebrow:'03 · Custo',
+     q:'Quanto custa por mês a estrutura que produz essas peças?',
+     help:'Salários e encargos de quem põe a mão, mais o fee da agência. Só produção: não inclua mídia, nem o time de dados, nem a liderança.',
+     opts:[[10000,'Até R$ 15 mil'],[26000,'De R$ 15 a 40 mil'],[62000,'De R$ 40 a 90 mil'],[130000,'De R$ 90 a 180 mil'],[250000,'De R$ 180 a 350 mil'],[450000,'Mais de R$ 350 mil']]},
+    {id:'horas', g:'A operação', eyebrow:'04 · Esforço',
+     q:'Quantas horas de gente uma única peça consome, da ideia aprovada até o envio?',
+     help:'Some todo mundo que encosta: briefing, texto, arte, montagem, revisão, aprovação e configuração na ferramenta.',
+     opts:[[1.5,'1 a 2 horas'],[4,'De 3 a 5 horas'],[8,'De 6 a 10 horas'],[15,'De 11 a 20 horas'],[25,'Mais de 20 horas']]},
+    {id:'mont', g:'A operação', eyebrow:'05 · Natureza do trabalho',
+     q:'Desse tempo, quanto é montagem, versionamento e configuração — e quanto é estratégia e criação original?',
+     help:'Montar o HTML, trocar a imagem por segmento, adaptar o texto para a quinta variação, configurar o disparo. É a parte que ninguém coloca no portfólio.',
+     opts:[[0.2,'A maior parte é criação — montagem é cerca de 20%'],[0.4,'Mais criação que montagem — cerca de 40% é montagem'],[0.6,'Mais montagem que criação — cerca de 60%'],[0.8,'Quase tudo é montagem — cerca de 80%']]},
+    {id:'dias', g:'A operação', eyebrow:'06 · Fila',
+     q:'Da ideia aprovada até a peça no ar, quantos dias úteis passam?',
+     help:'Tempo de calendário, não de trabalho. A espera entre as etapas conta.',
+     opts:[[1.5,'1 a 2 dias'],[4,'De 3 a 5 dias'],[8,'De 6 a 10 dias'],[15,'De 11 a 20 dias'],[25,'Mais de 20 dias']]},
+    {id:'mult', g:'A operação', eyebrow:'07 · Teto',
+     q:'Se não houvesse fila nem custo adicional, quantas peças você publicaria por mês?',
+     help:'A pergunta é sobre o que o calendário comercial pediria — não sobre o que a estrutura de hoje aguenta.',
+     opts:[[1,'O mesmo que hoje'],[2,'Cerca do dobro'],[3,'Cerca de três vezes mais'],[5,'Cinco vezes ou mais']]},
+
+    {id:'maos', g:'A marca', eyebrow:'08 · Exposição',
+     q:'Quantas pessoas podem colocar no ar uma peça com o nome da sua marca?',
+     help:'Conte todo mundo com a permissão técnica de publicar, dentro e fora de casa. Agência, estagiário, time regional, franqueado.',
+     opts:[[10,'De 1 a 3 pessoas'],[25,'De 4 a 10'],[35,'De 11 a 30'],[40,'Mais de 30']]},
+    {id:'trava', g:'A marca', eyebrow:'09 · Controle',
+     q:'O que impede hoje que uma peça fora do padrão da marca vá ao ar?',
+     help:'Não o que está escrito no manual — o que de fato trava a peça antes do disparo.',
+     opts:[[0,'Software: o template não permite sair do padrão'],[15,'Checklist formal mais revisão de uma pessoa'],[25,'A revisão de alguém que conhece a marca'],[30,'Nada estruturado — confiamos no time']]},
+    {id:'furo', g:'A marca', eyebrow:'10 · Histórico',
+     q:'Alguma peça fora do padrão de marca já foi ao ar?',
+     help:'Logo errado, tom fora da marca, promessa que o jurídico não aprovaria, imagem de campanha antiga.',
+     opts:[[20,'Sim, nos últimos 12 meses'],[12,'Sim, mas faz tempo'],[0,'Não que eu saiba'],[20,'Não saberíamos dizer']]},
+    {id:'ia', g:'A marca', eyebrow:'11 · Posição sobre IA',
+     q:'Qual é hoje a posição da empresa sobre IA generativa produzir peças com o nome da marca?',
+     help:'A posição real, não a do comunicado interno.',
+     opts:[[0,'Liberado — o time usa como achar melhor'],[5,'Caso a caso, sem regra formal'],[10,'Só com revisão humana peça a peça'],[10,'Não usamos IA generativa na comunicação da marca']]}
+  ];
+
+  var S = {}, i = 0;
+  function $(id){ return document.getElementById(id); }
+  function brl(n){
+    if(!isFinite(n)) return '—';
+    if(n < 10) return 'R$ ' + n.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+    return 'R$ ' + Math.round(n).toLocaleString('pt-BR');
+  }
+  function pct(n){ return (n*100).toLocaleString('pt-BR',{maximumFractionDigits:n<0.1?1:0}) + '%'; }
+  function num(n,d){ return n.toLocaleString('pt-BR',{maximumFractionDigits:d===undefined?1:d}); }
+  function trimField(v, max){ return String(v || '').trim().slice(0, max); }
+  function isValidEmail(v){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v); }
+
+  function ratioSummary(r){
+    var ratio = r.preco > 0 ? r.teto / r.preco : 0;
+    if(ratio >= 1){
+      return num(ratio, 1) + '× teto vs Composer (' + brl(r.teto) + ' / ' + brl(r.preco) + ')';
+    }
+    return 'Teto ' + brl(r.teto) + ' abaixo da mensalidade Composer (' + brl(r.preco) + ')';
+  }
+
+  function buildContactMessage(r){
+    var v = verdict(r);
+    var lines = [
+      'Lead · Diagnóstico Custo da Fila (/custo-da-fila)',
+      ORIGEM ? 'Origem campanha (?o=): ' + ORIGEM : null,
+      'Perfil: ' + ($('setor').value || '—') + ' · ' + ($('fat').value || '—'),
+      '',
+      'Veredicto: ' + v.lamp + ' — ' + v.t,
+      'Relação Composer: ' + ratioSummary(r),
+      '',
+      'Farol operação (' + r.f.k + '): ' + r.f.t,
+      'Teto: ' + brl(r.teto) + ' · Piso: ' + brl(r.piso) + ' · Recursos eq.: ' + num(r.recursos, 1),
+      'Farol marca (' + r.m.lvl + '): ' + r.marca + '/100 — ' + r.m.t,
+      '',
+      'Peças/mês: ' + num(r.pecas, 0) + ' · Estrutura: ' + brl(r.custo) + '/mês',
+      'Horas/peça: ' + num(r.horas, 1) + ' · Montagem: ' + pct(r.mont) + ' · Fila: ' + num(r.dias, 1) + ' du',
+      'Ambição: ' + num(r.mult, 1) + 'x · Equilíbrio ~' + pct(r.frac) + ' da estrutura',
+      'Custo/peça: ' + brl(r.custoPeca) + ' · Horas montagem/mês: ' + num(r.horasMont, 0),
+      '',
+      'Sliders: peças=' + $('t-pecas').value + ', custo=' + $('t-custo').value +
+        ', horas=' + $('t-horas').value + ', mont%=' + $('t-mont').value +
+        ', dias=' + $('t-dias').value + ', mult=' + $('t-mult').value +
+        ', recurso=' + $('t-rec').value + ', composer=' + $('t-preco').value,
+      'URL: ' + location.href
+    ];
+    return lines.filter(function(line){ return line !== null; }).join('\n').slice(0, 2000);
+  }
+
+  function calc(s){
+    var preco = s.preco > 0 ? s.preco : 0;
+    var rec   = s.rec > 0 ? s.rec : RECURSO;
+    var pecas = Math.max(1, s.pecas);
+    var custo = Math.max(1, s.custo);
+    var horas = Math.max(0.25, s.horas);
+    var mont  = Math.min(1, Math.max(0, s.mont));
+    var mult  = Math.max(1, s.mult);
+
+    var custoPeca = custo / pecas;
+    var horasMes  = pecas * horas;
+    var custoHora = custo / horasMes;
+    var horasMont = horasMes * mont;
+    var piso      = custo * mont;
+    var gap       = pecas * (mult - 1);
+    var custoGap  = gap * custoPeca;
+    var teto      = piso + custoGap;
+    var recursos  = teto / rec;
+    var pessoas   = horasMont / 168;
+    var frac      = preco / custo;
+    var pecasEq   = preco / custoPeca;
+    var horasEq   = preco / custoHora;
+
+    var f;
+    if(teto >= 25000)      f = {k:'ok',   t:'Verde — um recurso alocado ou mais', b:2};
+    else if(teto >= 12000) f = {k:'warn', t:'Amarelo — perto de um recurso alocado', b:1};
+    else                   f = {k:'err',  t:'Vermelho — abaixo do limiar de mudança', b:0};
+
+    var marca = (s.maos||0) + (s.trava||0) + (s.furo||0) + (s.ia||0);
+    var m;
+    if(marca >= 60)      m = {k:'err',  t:'Exposição alta', lvl:'alta'};
+    else if(marca >= 35) m = {k:'warn', t:'Exposição média', lvl:'média'};
+    else                 m = {k:'ok',   t:'Exposição baixa', lvl:'baixa'};
+
+    return {preco:preco,rec:rec,pecas:pecas,custo:custo,horas:horas,mont:mont,mult:mult,dias:s.dias,
+      custoPeca:custoPeca,horasMes:horasMes,custoHora:custoHora,horasMont:horasMont,pessoas:pessoas,
+      piso:piso,gap:gap,custoGap:custoGap,teto:teto,recursos:recursos,frac:frac,pecasEq:pecasEq,horasEq:horasEq,
+      f:f,marca:marca,m:m,iaProibida:(s.iaLabel === 3)};
+  }
+
+  function verdict(r){
+    var fk = r.f.k, alta = (r.m.lvl === 'alta');
+    if(fk === 'ok')
+      return {k:'ok', lamp:'Caso fechado',
+        t:'Os números fecham sozinhos. A conversa não é se vale, é quando começa.',
+        b:'Há ' + brl(r.teto) + ' por mês em jogo na sua operação de conteúdo, o equivalente a ' + num(r.recursos,1) +
+          ' recurso' + (r.recursos>1?'s':'') + ' alocado' + (r.recursos>1?'s':'') + '. O Composer custa ' + brl(r.preco) +
+          '. Nessa proporção, a decisão deixa de ser de orçamento e passa a ser de prioridade: quanto tempo você ainda vai levar para destravar as peças que não saem.'};
+    if(fk === 'warn' && alta)
+      return {k:'ok', lamp:'Vale a conversa',
+        t:'O seu caso não se decide pelo custo. Se decide pelo risco.',
+        b:'O valor em jogo — ' + brl(r.teto) + ' por mês contra ' + brl(r.preco) +
+          ' de mensalidade — fica na faixa em que a conta precisa ser feita com o time. Mas a sua exposição de marca é alta: ' +
+          'hoje o que impede uma peça fora do padrão de ir ao ar é gente, não software. Empresa que trata marca com esse zelo normalmente não compra ferramenta de produção por preço. Compra por controle.'};
+    if(fk === 'warn')
+      return {k:'warn', lamp:'Meça antes de decidir',
+        t:'Está na zona em que a resposta depende de um número que você ainda não tem.',
+        b:'Com ' + brl(r.teto) + ' por mês em jogo contra ' + brl(r.preco) + ' de mensalidade, a relação é defensável mas não é óbvia. ' +
+          'Antes de decidir, meça onde vão de fato as ' + num(r.horasMes,0) + ' horas que a sua estrutura gasta por mês. Se a montagem for maior do que você estimou, o caso muda de faixa. Se for menor, não muda.'};
+    if(alta)
+      return {k:'warn', lamp:'Vale a conversa — por outro motivo',
+        t:'Pelo dinheiro, não. Pela governança da sua marca, sim.',
+        b:'A sua operação é enxuta demais para o Composer se pagar por economia: há ' + brl(r.teto) +
+          ' por mês em jogo contra ' + brl(r.preco) + ' de mensalidade, abaixo do limiar em que vale mudar de processo. Mas a sua marca hoje é governada por pessoas, e isso não escala nem com mais revisão nem com mais política. ' +
+          'Se o seu problema é quem pode publicar em nome da marca, a conversa é essa — e não é sobre custo de peça.'};
+    return {k:'err', lamp:'Não é para você hoje',
+      t:'Nem o custo nem o risco justificam essa conversa agora.',
+      b:'Há ' + brl(r.teto) + ' por mês em jogo contra ' + brl(r.preco) +
+        ' de mensalidade de entrada do Composer — abaixo do limiar em que vale mudar de processo — e a sua exposição de marca é ' + r.m.lvl +
+        '. Isso é uma boa notícia sobre a sua operação, não um problema. Em vez de produção, o ganho mais provável na sua escala está em custo de mídia e receita por disparo — que é outra conversa, e a gente também tem ela. Não marque uma sessão sobre Composer só para confirmar isto.'};
+  }
+
+  function explainValor(r){
+    return 'São ' + brl(r.piso) + ' por mês que a sua estrutura já gasta hoje em montagem e versionamento — trabalho que existe quer você cresça ou não — mais ' +
+      brl(r.custoGap) + ' que custaria produzir, com a estrutura atual, as ' + num(r.gap,0) +
+      ' peças a mais que você disse que faria. Isso não é economia prometida: é o tamanho do que está em disputa, ao seu próprio custo.';
+  }
+  function explainMarca(r){
+    var p = r.marca >= 60 ? 'A sua marca hoje é governada por gente. '
+          : r.marca >= 35 ? 'A sua marca hoje é governada por processo e por gente, em partes iguais. '
+          : 'A sua marca hoje está relativamente protegida por estrutura, não por vigilância. ';
+    return p + 'Revisão humana funciona até o volume dobrar — e aí ou o revisor vira gargalo, ou alguma coisa passa. ' +
+      'A pergunta que decide não é se o seu time é cuidadoso. É quantas peças por mês ele consegue olhar uma a uma sem virar fila.';
+  }
+  function spot(r){
+    if(r.iaProibida) return {h:'Você não usa IA generativa com o nome da marca.',
+      b:'<p>É a decisão mais defensável do mercado em 2026, e quem a tomou normalmente tomou por um motivo concreto: nenhuma ferramenta generativa consegue garantir que a peça número mil saia dentro da marca. Pedir para confiar na IA não é resposta para isso.</p>' +
+        '<p>A proposta do Composer é a oposta. O template é travado <strong>antes</strong> de a IA entrar, e a trava é de software, não de política: a imagem que não muda, o texto fixo, o link, o botão. A IA só preenche o que foi explicitamente liberado. Em e-mail a trava desce a esse nível de detalhe; em SMS, push, WhatsApp e redes, a trava de DNA de marca vale igual.</p>' +
+        '<p>Não é "confie na IA". É "a IA não alcança".</p>'};
+    if(r.marca >= 60) return {h:'O volume é o que vai quebrar a sua governança — não a má-fé.',
+      b:'<p>O erro que custa caro quase nunca é o óbvio. É a peça que passou: a mão com seis dedos no banner, o logo esticado, o tom que não é o da marca na milésima variação. Revisão humana pega as primeiras. É o volume que decide quantas passam.</p>' +
+        '<p>Com o controle apoiado em revisão humana, cada peça a mais é uma peça a mais para alguém olhar. É por isso que operações com marca forte acabam limitando o próprio volume sem nunca decidir isso formalmente: a governança vira o teto de produção.</p>' +
+        '<p>Travar o template por software inverte a relação. O padrão deixa de depender de quem revisou e passa a depender do que o sistema permite gerar.</p>'};
+    return null;
+  }
+  function flagText(r){
+    if(r.custoHora < 40) return 'Uma checagem nos seus próprios números: ' + brl(r.custo) + ' por mês divididos por ' + num(r.horasMes,0) +
+      ' horas de produção dão ' + brl(r.custoHora) + ' por hora. É baixo demais para uma estrutura de marketing no Brasil. Provavelmente há mais peças contadas do que a estrutura entrega, ou menos horas por peça do que elas levam. Vale refazer as perguntas 2 e 4.';
+    if(r.custoHora > 600) return 'Uma checagem nos seus próprios números: ' + brl(r.custo) + ' por mês divididos por ' + num(r.horasMes,0) +
+      ' horas de produção dão ' + brl(r.custoHora) + ' por hora. É alto para trabalho de produção. O mais provável é que essa estrutura faça muito além de produzir peças. Isolando só a produção, a leitura fica mais justa.';
+    return '';
+  }
+  function tempoText(r){
+    return 'A sua operação consome ' + num(r.horasMes,0) + ' horas de gente por mês para produzir ' + num(r.pecas,0) +
+      ' peças. Pela sua própria estimativa, ' + num(r.horasMont,0) + ' dessas horas são montagem, versionamento e configuração — ' +
+      pct(r.mont) + ' do total, o equivalente a ' + num(r.pessoas,1) + ' pessoa' + (r.pessoas>1?'s':'') +
+      ' em tempo integral dedicada' + (r.pessoas>1?'s':'') + ' a trabalho que não aparece em portfólio nenhum.';
+  }
+  function filaText(r){
+    var d = r.dias;
+    var t = 'Da ideia aprovada ao ar passam ' + num(d,1) + ' dias úteis. Essa é a sua janela mínima de reação: nenhuma oportunidade que apareça e morra em menos tempo do que isso é aproveitável pela sua operação. ';
+    if(d >= 11) return t + 'Com mais de duas semanas de fila, o calendário comercial decide por você — só entra no ar o que foi planejado com um mês de antecedência. Campanha de oportunidade, resposta a concorrente e teste em campanha viva ficam fora, por construção.';
+    if(d >= 6)  return t + 'Com mais de uma semana, testar fica caro: cada variação custa uma passagem inteira pela fila, e é por isso que o teste sempre perde para a entrega.';
+    return t + 'A sua fila é curta para o padrão de mercado. Se o volume também não incomoda, o gargalo da sua operação está em outro lugar.';
+  }
+  function eqText(r){
+    return 'Visto por outro ângulo, sem nenhuma premissa: o Composer custa ' + brl(r.preco) + ' por mês e a sua estrutura de produção custa ' +
+      brl(r.custo) + '. Para empatar, ele precisa devolver ' + pct(r.frac) + ' da capacidade dessa estrutura — o equivalente a ' +
+      num(r.pecasEq,1) + ' peça' + (r.pecasEq>1?'s':'') + ' ou ' + num(r.horasEq,0) + ' horas por mês, sobre as ' + num(r.horasMes,0) +
+      ' que você já gasta. Compare esse número com as ' + num(r.horasMont,0) + ' horas que hoje vão para montagem.';
+  }
+
+  function render(){
+    var st = STEPS[i];
+    $('eyebrow').textContent = st.eyebrow + ' · ' + st.g;
+    $('qtext').textContent = st.q;
+    $('qhelp').textContent = st.help;
+    $('counter').textContent = 'Pergunta ' + (i+1) + ' de ' + STEPS.length;
+    $('bar').style.width = (i / STEPS.length * 100) + '%';
+    $('back').disabled = (i === 0);
+    var opts = $('opts');
+    // Setor e faturamento aparecem SÓ na primeira tela.
+    $('profile').hidden = (i !== 0);
+    $('next').textContent = (i === STEPS.length - 1) ? 'Ver o meu resultado' : 'Continuar';
+    opts.innerHTML = '';
+    st.opts.forEach(function(o, idx){
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'opt';
+      b.setAttribute('aria-pressed', String(S[st.id + 'Label'] === idx));
+      b.innerHTML = '<i></i><span></span>';
+      b.querySelector('span').textContent = o[1];
+      b.addEventListener('click', function(){
+        S[st.id] = o[0]; S[st.id + 'Label'] = idx;
+        Array.prototype.forEach.call(opts.children, function(c){ c.setAttribute('aria-pressed','false'); });
+        b.setAttribute('aria-pressed','true');
+        gate();
+      });
+      opts.appendChild(b);
+    });
+    gate();
+    $('quiz').scrollIntoView({block:'start', behavior:'smooth'});
+  }
+  function gate(){
+    var ok = S[STEPS[i].id] !== undefined;
+    if(i === 0) ok = ok && !!$('setor').value && !!$('fat').value;
+    $('next').disabled = !ok;
+  }
+
+  function show(r){
+    $('r-valor').textContent = brl(r.teto);
+    $('r-valor').className = 'bignum c-' + r.f.k;
+    $('r-lamp').className = 'lamp l-' + r.f.k;
+    $('r-lamp-t').textContent = r.f.t;
+    $('r-valor-exp').textContent = explainValor(r);
+    $('r-piso').textContent = brl(r.piso);
+    $('r-piso-exp').textContent = pct(r.mont) + ' da sua estrutura está em montagem e versionamento. Esse número não depende de você crescer.';
+    $('r-teto').textContent = brl(r.teto);
+    $('r-teto-exp').textContent = r.mult > 1
+      ? 'Inclui o custo de produzir as ' + num(r.gap,0) + ' peças a mais que você disse que faria. Se a ambição não se concretizar, vale o piso.'
+      : 'Você disse que manteria o volume de hoje. Sem gap de capacidade, teto e piso são o mesmo número.';
+    var ratio = r.preco > 0 ? r.teto / r.preco : 0;
+    if(ratio >= 1){
+      $('r-ratio').textContent = num(ratio,1) + '×';
+      $('r-ratio-exp').innerHTML = 'é quanto o valor em jogo na sua operação é maior que a mensalidade do Maestro Composer, que começa em <strong>' +
+        brl(r.preco) + ' por mês</strong>. A conta não diz que você economiza isso: diz o tamanho do que está em disputa ao lado do que custa disputar.';
+    } else {
+      $('r-ratio').textContent = brl(r.preco);
+      $('r-ratio-exp').innerHTML = 'é a mensalidade de entrada do Maestro Composer. Na sua operação, o valor em jogo hoje é <strong>menor do que isso</strong> — é por esse motivo, e só por ele, que o primeiro farol está vermelho.';
+    }
+    $('c-peca').textContent = brl(r.custo) + ' ÷ ' + num(r.pecas,0) + ' peças = ' + brl(r.custoPeca) + ' por peça';
+    $('c-hora').textContent = brl(r.custo) + ' ÷ (' + num(r.pecas,0) + ' × ' + num(r.horas,1) + ' h) = ' + brl(r.custoHora) + ' por hora';
+    $('c-piso').textContent = brl(r.custo) + ' × ' + pct(r.mont) + ' = ' + brl(r.piso) + ' por mês';
+    $('c-teto').textContent = brl(r.piso) + ' + (' + num(r.gap,0) + ' × ' + brl(r.custoPeca) + ') = ' + brl(r.teto) + ' por mês';
+    $('c-rec').textContent = brl(r.teto) + ' ÷ ' + brl(r.rec) + ' = ' + num(r.recursos,1) + ' pessoa' + (r.recursos>1?'s':'');
+    $('r-recurso').textContent = 'Na régua de ' + brl(r.rec) + ' por recurso alocado, isso equivale a ' + num(r.recursos,1) +
+      ' pessoa' + (r.recursos>1?'s':'') + ' dedicada' + (r.recursos>1?'s':'') + ' em tempo integral. Ajuste esse valor abaixo se na sua empresa ele for outro.';
+
+    $('r-marca').textContent = r.marca + '/100';
+    $('r-marca').className = 'bignum c-' + r.m.k;
+    $('r-mlamp').className = 'lamp l-' + r.m.k;
+    $('r-mlamp-t').textContent = r.m.t;
+    $('r-meter').style.width = r.marca + '%';
+    $('r-marca-exp').textContent = explainMarca(r);
+
+    var sp = spot(r);
+    $('r-spot').hidden = !sp;
+    if(sp){ $('r-spot-h').textContent = sp.h; $('r-spot-b').innerHTML = sp.b; }
+
+    var v = verdict(r);
+    $('r-verdict').className = 'verdict vd-' + v.k;
+    $('r-vlamp').className = 'lamp l-' + v.k;
+    $('r-vlamp-t').textContent = v.lamp;
+    $('r-vtitle').textContent = v.t;
+    $('r-vbody').textContent = v.b;
+
+    $('r-peca').textContent = brl(r.custoPeca);
+    $('r-hora').textContent = brl(r.custoHora);
+    $('r-mont').textContent = num(r.horasMont,0) + ' h';
+    $('r-mont-lab').textContent = 'horas por mês em montagem e versionamento — ' + num(r.pessoas,1) + ' pessoa' + (r.pessoas>1?'s':'') + ' em tempo integral';
+
+    var fl = flagText(r);
+    $('r-flag').hidden = !fl; $('r-flag').textContent = fl;
+    $('r-tempo-txt').textContent = tempoText(r);
+    $('r-fila-txt').textContent  = filaText(r);
+    $('r-eq-txt').textContent    = eqText(r);
+  }
+
+  function readTune(){
+    var s = {
+      pecas: parseFloat($('t-pecas').value) || 1,
+      custo: parseFloat($('t-custo').value) || 1,
+      horas: parseFloat($('t-horas').value) || 0.25,
+      mont: (parseFloat($('t-mont').value) || 0) / 100,
+      dias:  parseFloat($('t-dias').value)  || 0.5,
+      mult:  parseFloat($('t-mult').value)  || 1,
+      rec:   parseFloat($('t-rec').value)   || RECURSO,
+      preco: parseFloat($('t-preco').value) || 0,
+      maos:S.maos, trava:S.trava, furo:S.furo, ia:S.ia, iaLabel:S.iaLabel
+    };
+    return calc(s);
+  }
+
+  function finish(){
+    S.preco = PRECO; S.rec = RECURSO;
+    $('t-pecas').value = S.pecas; $('t-custo').value = S.custo; $('t-horas').value = S.horas;
+    $('t-mont').value = Math.round(S.mont * 100); $('t-dias').value = S.dias; $('t-mult').value = S.mult;
+    $('t-rec').value = S.rec; $('t-preco').value = S.preco;
+    show(calc(S));
+    $('quiz').hidden = true; $('result').hidden = false;
+    $('tag').textContent = ($('setor').value || '') + ' · ' + ($('fat').value || '');
+    $('result').scrollIntoView({block:'start', behavior:'smooth'});
+  }
+
+  $('start').addEventListener('click', function(){ $('hero').hidden = true; $('quiz').hidden = false; render(); });
+  $('next').addEventListener('click', function(){ if(i === STEPS.length - 1){ finish(); } else { i++; render(); } });
+  $('back').addEventListener('click', function(){ if(i > 0){ i--; render(); } });
+  $('setor').addEventListener('change', gate);
+  $('fat').addEventListener('change', gate);
+  ['t-pecas','t-custo','t-horas','t-mont','t-dias','t-mult','t-rec','t-preco'].forEach(function(id){
+    $(id).addEventListener('input', function(){ show(readTune()); });
+  });
+  $('send').addEventListener('click', function(e){
+    e.preventDefault();
+    var errEl = $('lead-err');
+    errEl.hidden = true;
+    errEl.textContent = '';
+
+    var nome = trimField($('l-nome').value, 120);
+    var empresa = trimField($('l-empresa').value, 120);
+    var email = trimField($('l-email').value, 254).toLowerCase();
+    var cargo = trimField($('l-cargo').value, 120);
+
+    if(!nome){ errEl.textContent = 'Informe seu nome.'; errEl.hidden = false; $('l-nome').focus(); return; }
+    if(!empresa){ errEl.textContent = 'Informe a empresa.'; errEl.hidden = false; $('l-empresa').focus(); return; }
+    if(!email || !isValidEmail(email)){ errEl.textContent = 'Informe um e-mail corporativo válido.'; errEl.hidden = false; $('l-email').focus(); return; }
+    if(!cargo){ errEl.textContent = 'Informe seu cargo.'; errEl.hidden = false; $('l-cargo').focus(); return; }
+
+    var btn = $('send');
+    btn.disabled = true;
+    btn.textContent = 'Enviando…';
+
+    var r = readTune();
+    var payload = {
+      nome: nome,
+      email: email,
+      empresa: empresa,
+      cargo: cargo,
+      assunto: 'Sessão 45 min · Custo da Fila · Maestro Composer',
+      mensagem: buildContactMessage(r)
+    };
+
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    })
+      .then(function(res){
+        return res.json().catch(function(){ return {}; }).then(function(data){
+          if(!res.ok){
+            throw new Error(data.error || 'Não foi possível enviar sua mensagem.');
+          }
+          $('sent').hidden = false;
+          $('lead').hidden = true;
+          btn.hidden = true;
+        });
+      })
+      .catch(function(err){
+        errEl.textContent = err.message || 'Não foi possível enviar. Tente novamente em instantes.';
+        errEl.hidden = false;
+        btn.disabled = false;
+        btn.textContent = 'Quero a sessão';
+      });
+  });
+  $('again').addEventListener('click', function(){
+    S = {}; i = 0; $('result').hidden = true; $('hero').hidden = false;
+    $('tag').textContent = 'Diagnóstico de produção e governança';
+    $('lead').hidden = false;
+    $('sent').hidden = true;
+    $('send').hidden = false;
+    $('send').disabled = false;
+    $('send').textContent = 'Quero a sessão';
+    $('lead-err').hidden = true;
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;e83d2671ff01474fb17a82f5a3673fae&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+
+</body></html>
