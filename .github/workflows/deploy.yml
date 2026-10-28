@@ -22,6 +22,8 @@ jobs:
       - run: npm run build
       - run: php test/api.php
       - run: php -l dist/api/index.php && php -l dist/api/lead.php
+      - name: Registrar versão publicada
+        run: node -e "require('fs').writeFileSync('dist/version.json', JSON.stringify({commit:process.env.GITHUB_SHA}))"
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

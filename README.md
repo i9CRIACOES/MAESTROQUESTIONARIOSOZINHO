@@ -18,4 +18,4 @@ Os links usam token de 256 bits no fragmento da URL e arquivos identificados por
 
 ## Atualizar e reverter
 
-Após cada publicação, confira Actions, commit de deploy no Plesk e URL. Para reverter, reverta o commit em main e aguarde o build; a persistência privada permanece fora do deploy. Não altere o site acompanhado existente.
+O webhook GitHub → Plesk acompanha a branch deploy. Após cada publicação, confira Actions, commit de deploy no Plesk e version.json na URL (contém somente o SHA de origem). Para reverter, reverta o commit em main e aguarde o build; a persistência privada permanece fora do deploy. Não altere o site acompanhado existente.
