@@ -13,6 +13,8 @@ $raw = file_get_contents('php://input', false, null, 0, 16385);
 if (strlen($raw) > 16384) concluirLead(413);
 $v = json_decode($raw, true);
 if (!is_array($v) || !in_array($v['evento'] ?? '', ['desbloqueio', 'atualizacao'], true) || !is_array($v['linha'] ?? null) || !preg_match('/^[a-f0-9-]{36}$/iD', (string) ($v['linha']['ID'] ?? ''))) concluirLead(422);
+$v['linha']['QUESTIONARIO'] = 'responda';
+$raw = json_encode($v, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
 if (!function_exists('curl_init')) concluirLead(503);
 $ch = curl_init('https://n8n.i9criacoes.com.br/webhook/vc-sabia-maestro');
 curl_setopt_array($ch, [CURLOPT_POST => true, CURLOPT_POSTFIELDS => $raw, CURLOPT_HTTPHEADER => ['Content-Type: application/json'], CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 8, CURLOPT_CONNECTTIMEOUT => 3]);
